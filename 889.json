@@ -1,5 +1,5 @@
 {
-  "spider": "./top98.jar",
+  "spider": "https://chou6159.github.io/z/top98.jar",
   "lives": [
     {
       "group": "redirect",
