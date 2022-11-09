@@ -1,5 +1,5 @@
 {
-  "spider": "https://chou6159.github.io/z/top98.jar",
+  "spider": "./jar/top98.jar",
   "lives": [
     {
       "group": "redirect",
@@ -156,16 +156,7 @@
         }
       }
     },
-    {
-      "key": "csp_XBPQ_DOUYIN",
-      "name": "短视频(XBPQ)",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "{\n\"分类url\": \"http://www.sharenice.net/{cateId}?page={catePg}\",\n\"分类\": \"抖音$douyin#快手$kuaishou#微视$weishi#场库$changku#美拍$meipai#秒拍$miaopai#全民$quanmin#梨$lishipin#好兔$haotu#开眼$kaiyan\",\n\"链接\": \"http://www.sharenice.net&&\\\"\",\n\"直接播放\": \"1\"\n}"
-    },
+    {"key": "csp_biubiu_短视频","name": "️短视频(XB)","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "分类url:http://www.sharenice.net/{cateId}?page={catePg},分类:抖音,直接播放:1,嗅探词:play/?#?item#qianpailive#.flv#mp4"},
     {
       "key": "csp_xb_zxzj",
       "name": "在线之家(XBiu)",
